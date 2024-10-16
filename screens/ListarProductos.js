@@ -6,7 +6,6 @@ import { StyleSheet, Text, View ,Button,Alert,Image,TouchableOpacity} from 'reac
 export default function ListarProductos({navigation}) {
   return (
     <View style={styles.container}>
-      <Text>HOLA LEITO</Text>
         <Text>Listado Productos</Text>
         <View>
         <TouchableOpacity onPress={() => navigation.navigate('Carrito')} style={styles.botonNegro}>
